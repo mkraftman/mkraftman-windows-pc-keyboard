@@ -247,7 +247,7 @@ class MkraftmanWindowsPCKeyboard extends HTMLElement {
     if (!this._hass) return;
     this._hass.callService("unified_remote", "call", {
       remote_id: "Relmtech.Keyboard",
-      action: "stroke",
+      action: "toggle",
       extras: { Values: [{ Value: key }] },
     });
   }
