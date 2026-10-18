@@ -81,3 +81,7 @@ The card uses a hidden HTML input element to capture keystrokes from the device'
 ## License
 
 MIT
+
+## Releasing
+
+Bump the version in `VERSION` (e.g. `1.0.1`) and push to `main`. The release workflow creates the matching `vX.Y.Z` tag and GitHub release with `dist/mkraftman-windows-pc-keyboard.js` attached. Pushing a `vX.Y.Z` tag directly also still works.
